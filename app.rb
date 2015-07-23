@@ -8,6 +8,12 @@ end
 
 #these are my routers or controllers
 
+
+
+get '/' do
+  erb :index #erb
+
+end
 # http:
 get '/api/awesome' do
   # dosomething else
