@@ -11,4 +11,11 @@ end
 # http:
 get '/api/awesome' do
   # dosomething else
+  {players: 'Steph CHEF Curry', :message => 'Cooking like a Chef Boy!'}.to_json
+end
+
+
+get ' /api/toolittle' do
+  {jams: 'too hot for vegas', :dont => 'be kind positive and honest'}.to_json
+
 end
